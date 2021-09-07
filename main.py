@@ -5,7 +5,7 @@ from kivy.lang import Builder
 from webcam_photo_sharer.screens import CameraScreen, ImageScreen
 from webcam_photo_sharer.filesharer import FileSharer
 
-Builder.load_file('webcam_photo_sharer/frontend.kv')
+Builder.load_file("webcam_photo_sharer/frontend.kv")
 
 
 class RootWidget(ScreenManager):
@@ -17,5 +17,5 @@ class MainApp(App):
         return RootWidget()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     MainApp().run()
