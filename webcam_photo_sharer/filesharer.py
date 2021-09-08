@@ -1,3 +1,6 @@
+from filestack import Client
+
+
 class FileSharer:
     def __init__(self, filepath, api_key):
         self.filepath = filepath
